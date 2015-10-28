@@ -1,19 +1,19 @@
 //
-//  Photographer.h
+//  Photo.h
 //  Photomania
 //
-//  Created by Joseph Gordon on 9/24/15.
+//  Created by Joseph Gordon on 10/1/15.
 //  Copyright © 2015 Laura Gordon. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Photo;
+@class Photographer;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Photographer : NSManagedObject
+@interface Photo : NSManagedObject
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -21,4 +21,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "Photographer+CoreDataProperties.h"
+#import "Photo+CoreDataProperties.h"
